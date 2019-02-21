@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CollectingCrystals</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="Images\crystalfavicon.png"/>
+  
+  <link rel="stylesheet" href="C:\Users\glipp\Downloads\Attemptedcrystalgame\Attemptedcrystalgame\CSS\style.css">
+
+</head>
+<body>
+
+
+<div class="header">
+  <h1>**Crystal Collector Game**</h1>
+ </div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>*Directions*</h2>
+	  <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number.</p>
+    <p>You will lose the game if your total score goes above the number you have to reach.</p>
+    <p>The actual value of each crystal is hidden so you have to keep track of what the crystals individually equal to reach your total score.</p>
+    <p>Each time the game starts, each crystals value will be changed to a new numerical number.</p>
+    <div class="container">
+        <div class="card-deck">
+          <div class="card bg-primary">
+            <div class="card-body text-center">
+              <p class="cardimg" id="pink"><img src="Images\pink crystal.jpg" width="80" height="100" alt="pink crystal"></p>
+            </div>
+          </div>
+          <div class="card bg-warning">
+            <div class="card-body text-center">
+              <p class="cardimg" id="green"><img src="Images\green crystal.jpg" width="80" height="100" alt="green crystal"></p>
+            </div>
+          </div>
+          <div class="card bg-success">
+            <div class="card-body text-center">
+           
+                <img id='blue' src="Images\blue crystal.jpg" width="80" height="100" alt="blue crystal">
+              
+            </div>
+          </div>
+          <div class="card bg-danger">
+            <div class="card-body text-center">
+              <p class="cardimg" id="yellow"><img src="Images\yellow crystal.png" width="80" height="100" alt="yellow crystal"></p>
+            </div>
+          </div>  
+        </div>
+      </div>  
+  </div>
+   </div>
+  <div class="rightcolumn">
+    <div class="winlose">
+      <h2>*Win/Lose*</h2>
+      <p id= "numberWins"><p>Win:</p>
+			<p id= "numberLosses"><p>Lose:</p>
+    </div>
+
+    <div class="totalscore">
+      <h3>*Your total score*</h3>
+      <p id="finalTotal"><p>Score:</p>
+    </div>
+    
+    <div class="magicnumber">
+      <h3>*Magic Number*</h3>
+      <p id= "randomNumber"><p>Number to guess to get a Win!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div>
+    <img src="Images\crystal footer.jpg" alt="Crystal Footer" width="1000" height="100">
+  </div>
+
+<link rel="reset" href="CSS\reset.css">
+
+
+<script src="JS/javascript.js"></script>
+
+
+</body>
+</html>
