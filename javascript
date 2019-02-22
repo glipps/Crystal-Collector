@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log('js loaded');
     var Random=Math.floor(Math.random()*101+19)
     $("#randomNumber").html(Random);
   
@@ -51,7 +50,6 @@ $(document).ready(function(){
   }
 
     $("#blue").on("click", function(){
-      console.log('i work!!!')
       userTotal = userTotal + blue;
       console.log("New userTotal=" + userTotal);
       $("#finalTotal").html(userTotal); 
