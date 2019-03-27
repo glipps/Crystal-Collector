@@ -2,8 +2,6 @@
 
 ### Option One: CrystalsCollector Game (Recommended)
 
-![Crystal Collector](https://cw.bootcampcontent.com/CW-Coding-Bootcamp/CWCL201901FSF3/raw/master/04-jquery/02-Homework/Instructions/Images/1-CrystalCollector.jpg)
-
 1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
 
 2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
